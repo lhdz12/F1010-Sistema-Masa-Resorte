@@ -228,11 +228,12 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 
-# velocidad empírica curva de mejor ajuste y RK 
+# gráficos de velocidades 
+
 plt.figure(figsize= (10,4))
-plt.plot(t_fino, v1_fit, "--", color = "green", label=f"Ajuste seno $v_1(t)$", linewidth=2)
+plt.plot(t, v1_emp, "--", color = "green", label=f"Ajuste seno $v_1(t)$", linewidth=2)
 plt.plot(t, V1, color = "blue", label=f'RK4 $v_1(t)$')
-plt.xlim([-0.5, 3])
+plt.xlim([-0.5, 7.5])
 plt.xlabel("t (s)")
 plt.ylabel(f"$v_1(t)$ (m/s)")
 plt.title(f"Comparación para $v_1(t)$: RK4")
@@ -242,9 +243,9 @@ plt.tight_layout()
 plt.show()
 
 plt.figure(figsize= (10,4))
-plt.plot(t_fino, v1_fit, "--", color = "green", label=f"Ajuste seno $v_2(t)$", linewidth=2)
-plt.plot(t, V1, color = "blue", label=f'RK4 $v_2(t)$')
-plt.xlim([-0.5, 3])
+plt.plot(t, v2_emp, "--", color = "green", label=f"Ajuste seno $v_2(t)$", linewidth=2)
+plt.plot(t, V2, color = "blue", label=f'RK4 $v_2(t)$')
+plt.xlim([-0.5, 7.5])
 plt.xlabel("t (s)")
 plt.ylabel(f"$v_2(t)$ (m/s)")
 plt.title(f"Comparación para $v_2(t)$: RK4")
@@ -252,5 +253,3 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
-
-
