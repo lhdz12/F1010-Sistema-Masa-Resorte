@@ -35,19 +35,19 @@ Incluye:
 
 ### Comparación de posiciones
 **x₁(t): RK vs Ajuste**
-![](A003RKX1.png)
+![](images/A003RKX1.png)
 
 **x₂(t): RK vs Ajuste**
-![](A004RKX2.png)
+![](images/A004RKX2.png)
 
 ---
 
 ### Comparación de velocidades
 **v₁(t): RK vs Ajuste**
-![](A005RKV1.png)
+![](images/A005RKV1.png)
 
 **v₂(t): RK vs Ajuste**
-![](A006RKV2.png)
+![](images/A006RKV2.png)
 
 ---
 
